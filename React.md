@@ -17,4 +17,40 @@ Const return H5 = () =>{    JS
     return <h5 class="elPili"> Hola Fili </h5>  HTML
 }
 Una mala práctica de REACT es utilizar el HTML cuando ya tenemos REACT. No se debe escribir nada.
-Todo componente se escribe con CapitalCase.  App es el punto de partida de nuestra navegación o del DOM.
+Todo componente se escribe con CapitalCase para distinguirlo de las etiquetas de HTML. 
+App es el punto de partida de nuestra navegación o del DOM.
+Class es la palabra reservada para un componente. Extends crea una herencia de propiedades. 
+Class App extends Component{
+
+}
+
+//1. Class Component
+// Extender de Component
+//class Car extends Component{
+  //atributo
+  /**
+   * puertas
+   * neumáticos
+   * asientos
+   * transmision
+   * motor
+   */
+  //métodos
+  /**
+   * encender()
+   * moverse()
+   * arrancar()
+   */
+  // this.puerta
+  // encender()
+  // moverse()
+
+//}
+
+Aplicar 3 pasos en App.jsx
+Para acceder a valores o variables js en HTML debo de abrir llaves {}
+Para acceder a un atributo: {Car.puertas}
+Para acceder a una función: {encender()}
+Para acceder a los estados: this.setState ({name:newValue})
+En jsx, para definir clases de html se usa className.
+Toda la información entre nodos viaja por properties. Y cuando va del PADRE al HIJO son atributos {this.props.count1} PEro si es al revés, de HIJO a PADRE es por medio de métodos a manera de funciones {this.props.increment()}
