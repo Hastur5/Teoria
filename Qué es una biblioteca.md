@@ -1,0 +1,1 @@
+Es un conjunto de implementaciones o subprogramas que podemos implementar en el código. Es decir, herramientas que alguien ha desarrollado para que lo podamos usar.   
