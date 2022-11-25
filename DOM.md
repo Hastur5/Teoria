@@ -1,0 +1,1 @@
+Es la interfaz que hace una conexión entre HTML y JS. Es una manera de manejar elementos, valores de HTML como objetos de JS. 
