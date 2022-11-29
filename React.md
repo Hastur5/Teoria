@@ -81,3 +81,30 @@ Function saludo (props){
   return <h1>Holi, {props.nombre}!</h1>
 }
 ----> Aquí props es un objeto y nombre sirve para acceder a la propiedad específica. props.nombre
+
+
+***** ESTRUCTURA
+Components: son los bloques o partes de construcción de un proyecto de React. Aquí entra todo lo que tenga que ver con el interfaz de usuario como: botones, modales, entradas, cargador, etc.
+Se pueden agregar subcarpetas y los estilos de estos componentes específicos agregarlos por ejemplo:
+
+*Componetes
+|
+|
+|---> Navbar
+      |
+      |--->navbar.jsx
+      |
+      |
+      |--->navbar.css
+
+*Styles: en esta carpeta se pueden agregar todo aquello que tenga que ver con los estilos globales de la app. Todo lo que sea genérico de la página. Pero si ya es algo del componente, entonces se pone como arriba.
+
+*Assets: archivos multimedia como imágenes, videos, archivos json (recursos estáticos).
+
+*Layouts: diseños reutilizables o plantillas.
+
+*Hooks: Todos los custon hooks van aquí. Un hook es una función de js que hace hooks de react. Sólo procesa info, no renderiza vistas.
+
+*Page: Se refiere a una página que normalmente tiene una ruta.
+Pages/Home
+Pages/Post

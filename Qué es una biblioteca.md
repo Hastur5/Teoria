@@ -1,1 +1,2 @@
-Es un conjunto de implementaciones o subprogramas que podemos implementar en el código. Es decir, herramientas que alguien ha desarrollado para que lo podamos usar.   
+Es un conjunto de implementaciones o subprogramas que podemos implementar en el código. Es decir, herramientas que alguien ha desarrollado para que lo podamos usar.
+Las librerías no poseen una estructura definida, el framework sí.
