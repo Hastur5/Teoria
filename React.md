@@ -108,3 +108,15 @@ Se pueden agregar subcarpetas y los estilos de estos componentes específicos ag
 *Page: Se refiere a una página que normalmente tiene una ruta.
 Pages/Home
 Pages/Post
+
+*Routes: Se colocan las rutas de la app.
+*Services: Suele usarse para contener archivos de JS con llamadas a API externas.
+*Utils: Archivos JS que son genéricas.
+*Helpers: Son cosas concretas para el proyecto actual. Que se utilizará para aplicarlo varias veces.
+*Context:
+*Config:
+
+
+npm i standard -D
+
+(esto es para estandarizar el código)

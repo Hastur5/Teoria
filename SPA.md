@@ -1,0 +1,1 @@
+Aplicación de una sola página. Significa que no hay rutas y hay sólo una url. React es de ese estilo. Todo funciona en una sola página. Es por eso que no es posible actualizarlo.
