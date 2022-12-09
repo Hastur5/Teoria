@@ -1,0 +1,3 @@
+Es el término para decir que pasaremos datos a través de varios componentes hijos anindados, en un intento de entregar estos datos a un componente profundamente anidado.
+El problema con este enfoque es que la mayoría de los componentes a través de los cuales pasas estos datos no tienen ninguna necesidad real de estos datos. Simplemente se utilizan como medios para transportar estos datoas a su componente destino. 
+Esto puede causar problemas importantes de reutilización de componentes y de rendimiento de aplicación.

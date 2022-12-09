@@ -120,3 +120,7 @@ Pages/Post
 npm i standard -D
 
 (esto es para estandarizar el código)
+
+Componentes Lógicos vs Componentes Visuales
+Los componentes lógicos sólo procesan info (hacer peticiones api).
+Los componentes visuales sólo muestran lo que hay para visualizar (una card).
