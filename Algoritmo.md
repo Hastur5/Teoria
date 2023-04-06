@@ -1,0 +1,1 @@
+Es un conjunto de reglas lógicas a seguir.
