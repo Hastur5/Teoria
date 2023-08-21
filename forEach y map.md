@@ -1,0 +1,2 @@
+El forEach es para iterar un arreglo.
+Map sirve para lo mismo, sin embargo, nos funciona para generar un nuevo arreglo de lo que estemos iterando. Por ejemplo, si solamente quiero sacar una información en específica como los productos que cuestan 300, entonces para eso nos sirve.
